@@ -4,8 +4,8 @@ import {
     Switch,
     Route
   } from "react-router-dom";
-import MarvelScreen from '../components/marvel/MarvelScreen';
-import Navbar from '../components/ui/Navbar';
+// import MarvelScreen from '../components/marvel/MarvelScreen';
+// import Navbar from '../components/ui/Navbar';
 import Login from '../components/login/Login'
 import DashboardRoutes from './DashboardRoutes';
 
