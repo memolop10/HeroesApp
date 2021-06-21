@@ -1,0 +1,12 @@
+body{
+    background-color: #111313;
+    color:white
+}
+.list-group-flush .list-group-item{
+    background-color:#0D142D;
+    color:white
+}
+
+li{
+    color: black;
+}
