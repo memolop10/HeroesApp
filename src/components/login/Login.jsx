@@ -6,6 +6,8 @@ const Login = ({history}) => {
 
     const { dispatch } = useContext(AuthContext);
 
+    const lastPath = localStorage.getItem('lastPath') || '/';
+
     const handleLogin = () => {
         dispatch({
             type: types.login,
@@ -14,7 +16,7 @@ const Login = ({history}) => {
             }
         })
         
-        history.replace('/')
+        history.replace(lastPath)
     }
 
     return (
