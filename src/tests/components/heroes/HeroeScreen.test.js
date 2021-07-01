@@ -77,5 +77,4 @@ describe('Test in <HeroesScreen />', () => {
 
     })
     
-    
 });
